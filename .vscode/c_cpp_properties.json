@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/rootquan/catkin_wps/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/rootquan/catkin_wps/src/chao_pkg/include/**",
+        "/home/rootquan/catkin_wp/src/demo_pkg/include/**",
+        "/home/rootquan/catkin_baby/src/ming_pkg/include/**",
+        "/home/rootquan/catkin_baby/devel/include/**",
+        "/home/rootquan/catkin_wps/src/qq_msgs/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

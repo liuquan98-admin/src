@@ -1,0 +1,7 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/rootquan/catkin_wps/devel/lib/python3/dist-packages",
+        "/home/rootquan/catkin_wp/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}
