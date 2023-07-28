@@ -205,6 +205,7 @@ include_directories(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+#  asasas
 
 add_executable(talker_person src/publisher.cpp)
 target_link_libraries(talker_person
