@@ -15,11 +15,7 @@ int main(int argc, char *argv[])
     
     int number_conunt=0;
    
-    // ming_pkg::sttay p; //申明自定義消息
-    // //使用自定義數據進行填充
-    // p.name="sucan";
-    // p.age=18;
-    // p.height=178;
+=
     
     while (ros::ok())
     {
