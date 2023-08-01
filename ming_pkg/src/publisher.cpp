@@ -14,9 +14,6 @@ int main(int argc, char *argv[])
     ros::Rate r(1);
     
     int number_conunt=0;
-   
-=
-    
     while (ros::ok())
     {
         ming_pkg::sttay p;
