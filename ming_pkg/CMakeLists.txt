@@ -211,3 +211,8 @@ add_executable(talker_person src/publisher.cpp)
 target_link_libraries(talker_person
    ${catkin_LIBRARIES}
  )
+
+ add_executable(subsrc_node src/subscrlist.cpp)
+target_link_libraries(subsrc_node
+   ${catkin_LIBRARIES}
+ )
