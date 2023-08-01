@@ -3,6 +3,7 @@
 #include <stdio.h>
 
 void number_call(const ming_pkg::sttay::ConstPtr& msg){
+ ROS_INFO("name is [%s]",msg->name);
  ROS_INFO("deivce is [%d]",msg->deivce_id);
  ROS_INFO("percent is [%f]",msg->percent);
 
