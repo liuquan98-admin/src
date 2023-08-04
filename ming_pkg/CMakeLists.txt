@@ -54,11 +54,10 @@ add_message_files(
 )
 
 ## Generate services in the 'srv' folder
-# add_service_files(
-#   FILES
-#   Service1.srv
-#   Service2.srv
-# )
+ add_service_files(
+   FILES
+   mysrc.srv
+ )
 
 ## Generate actions in the 'action' folder
 # add_action_files(
@@ -207,6 +206,7 @@ include_directories(
 # catkin_add_nosetests(test)
 #  asasas
 
+
 add_executable(talker_person src/publisher.cpp)
 target_link_libraries(talker_person
    ${catkin_LIBRARIES}
@@ -214,5 +214,9 @@ target_link_libraries(talker_person
 
 add_executable(subsrc_node src/subscrlist.cpp)
 target_link_libraries(subsrc_node
+   ${catkin_LIBRARIES}
+ )
+ add_executable(service_node src/service_node.cpp)
+target_link_libraries(service_node
    ${catkin_LIBRARIES}
  )

@@ -1,0 +1,4 @@
+int32 num_a
+int32 num_b
+---
+string name
