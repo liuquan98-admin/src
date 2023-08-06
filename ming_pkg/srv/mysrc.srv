@@ -1,4 +1,3 @@
-int32 num_a
-int32 num_b
+string num_a
 ---
 string name
